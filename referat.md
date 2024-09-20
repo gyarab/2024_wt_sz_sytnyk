@@ -1,5 +1,5 @@
-# Tim Berners-Lee (1955)
-- Anglický počítačový odborník
+# Tim Berners-Lee 
+- Anglický počítačový odborník, národil se v roce 1955
 - Jeho rodiče byli součástí týmu, který vyvinul první komerční počítač - Ferranti Mark 1
 - V letech 1973 - 1976 studoval na Oxfordské univerzitě (dostal titul bakalář v oboru Fyzika)
 - Pracoval jako počítačový inženýr
