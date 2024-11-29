@@ -8,6 +8,28 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
 
+    <script>
+      function akce(){
+        //alert('asdf')
+        let obr = document.getElementById('obr01')
+        console.log('----====------')
+        console.log(obr)
+        let src01 = "https://placecats.com/200/200"
+        let src02 = "https://placehold.co/200x200"
+        if(obr.src === src02){
+          obr.src = src01
+        }
+        else {
+          obr.src = src02
+        }
+        obr.style.border = "10px solid red"
+
+        if(obr.style.border == borderStyle){
+          obr.style.border = ""
+        }
+      }
+    </script>
+
     <body>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
@@ -76,7 +98,7 @@
 
         
         <h2>Cervena</h2>
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/041/444/721/small/ai-generated-ripe-cherries-with-cherries-leaves-on-the-floor-healthy-organic-berry-natural-ingredients-concept-ai-generated-transparent-with-shadow-png.png" alt="cherry">
+        <img  src="https://static.vecteezy.com/system/resources/thumbnails/041/444/721/small/ai-generated-ripe-cherries-with-cherries-leaves-on-the-floor-healthy-organic-berry-natural-ingredients-concept-ai-generated-transparent-with-shadow-png.png" alt="cherry">
         <h3>Modra</h3>
         <h5>Cerna</h5>
         <img src="https://www.svgrepo.com/show/494971/airplane.svg" alt="plane" width="300" height="200">
@@ -91,7 +113,13 @@
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi dolor itaque sunt magnam quas fuga tempora fugiat sed ratione laborum eveniet aliquam obcaecati, cumque quam officiis minus voluptates, unde vero cum totam nihil? Eius enim repellat explicabo dolorem et placeat iusto consequuntur! Similique at distinctio impedit incidunt voluptas adipisci eum?
         </p>
+        <img id="obr01" src="https://placehold.co/200x200">
+        <button 
+        class="btn btn-outline-primary btn-lg"
+        onclick="akce()"
+        >Zmackni me
         
+      </button>
 </div>
     
 <div style="height: 500px;"></div>
